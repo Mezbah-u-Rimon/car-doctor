@@ -14,7 +14,8 @@ require('dotenv').config()
 //3th
 app.use(cors({
     origin: [
-        // 'http://localhost:5173', 'http://localhost:5174'
+        'http://localhost:5173', 'http://localhost:5174',
+
         "https://auth-moha-milon-286da.web.app/",
         "https://auth-moha-milon-286da.firebaseapp.com/?_gl=1*1mk3nwb*_ga*MTYyNzEwMjY1Ny4xNjk1ODc4NjU1*_ga_CW55HF8NVT*MTY5ODc2NTUwMS43My4xLjE2OTg3NjU2MDkuNTEuMC4w"
     ],
